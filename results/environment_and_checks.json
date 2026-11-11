@@ -1,0 +1,18 @@
+{
+  "python_version": "3.13.6",
+  "operating_system": "Windows-11-10.0.26300-SP0",
+  "python_ide": "Terminal/Spyder-compatible Python; UI via Streamlit browser",
+  "pandas": "2.3.3",
+  "matplotlib": "3.11.2",
+  "ga_seed": 42,
+  "repeatability_fixed_seed": true,
+  "repeatability_note": "Fitness, chromosome, generations and history match exactly; measured seconds may differ",
+  "test_count": 10,
+  "manual_example_optimum": 4,
+  "original_reference_optimum": 3,
+  "original_reference_ids": [
+    "T007",
+    "T036",
+    "T081"
+  ]
+}

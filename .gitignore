@@ -1,0 +1,37 @@
+# Per-project virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE/editor preferences
+.vscode/
+.idea/
+
+# Operating system and transient files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Keep data/, figures/, and results/ under version control for reproducibility.
+
+# Ad-hoc GUI upload fixtures created during manual testing
+# (keep the curated documented benchmark datasets in version control)
+data/test_*.csv
+data/test_*.xlsx
+data/test_*.dat

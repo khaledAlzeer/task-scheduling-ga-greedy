@@ -1,0 +1,162 @@
+{
+  "source": {
+    "repository": "Mathprog-ORlib PTSP",
+    "url": "https://andreas-ernst.github.io/Mathprog-ORlib/info/readmePTSP.html",
+    "original_archive": "ptask.zip",
+    "selected_member": "Data_10_51_111_66.dat",
+    "primary_extraction": "Jobs = 111 section; ID added by row number",
+    "csv_original": "Khaled_Activity_Selection_Dataset_111.csv",
+    "original_sha256": "25848b86502b11a434eef4c661ff560a3c30e398ecb05f5674b369b753856b63",
+    "source_type": "synthetic academic benchmark, not observed field data"
+  },
+  "scenarios": {
+    "Khaled_Phase3_25_best.csv": {
+      "size": 25,
+      "profile": "best",
+      "source_original": "Khaled_Activity_Selection_Dataset_111.csv",
+      "sha256": "fb53519671d296657840c0516ad0964dca3bb6bc97b6d132480dec18c0b63a67",
+      "exact_optimum": 25,
+      "is_derived": true,
+      "row_count": 25,
+      "columns": [
+        "task_id",
+        "start_time",
+        "finish_time"
+      ]
+    },
+    "Khaled_Phase3_25_average.csv": {
+      "size": 25,
+      "profile": "average",
+      "source_original": "Khaled_Activity_Selection_Dataset_111.csv",
+      "sha256": "bb17c1f26252bd44faf4d4244b26f53c6570daf9ea1314d990ce47f0b2582db7",
+      "exact_optimum": 11,
+      "is_derived": true,
+      "row_count": 25,
+      "columns": [
+        "task_id",
+        "start_time",
+        "finish_time"
+      ]
+    },
+    "Khaled_Phase3_25_worst.csv": {
+      "size": 25,
+      "profile": "worst",
+      "source_original": "Khaled_Activity_Selection_Dataset_111.csv",
+      "sha256": "a59c0dc9ca491b04b3396bb25b39d4e311d57dd14a652abab7748ac7f5aa659b",
+      "exact_optimum": 1,
+      "is_derived": true,
+      "row_count": 25,
+      "columns": [
+        "task_id",
+        "start_time",
+        "finish_time"
+      ]
+    },
+    "Khaled_Phase3_60_best.csv": {
+      "size": 60,
+      "profile": "best",
+      "source_original": "Khaled_Activity_Selection_Dataset_111.csv",
+      "sha256": "446a11d1e613ebb218553cca5b5c08b1df6761ebf3f3ba18661fe8b00c5e0994",
+      "exact_optimum": 60,
+      "is_derived": true,
+      "row_count": 60,
+      "columns": [
+        "task_id",
+        "start_time",
+        "finish_time"
+      ]
+    },
+    "Khaled_Phase3_60_average.csv": {
+      "size": 60,
+      "profile": "average",
+      "source_original": "Khaled_Activity_Selection_Dataset_111.csv",
+      "sha256": "14b78c3c485f887a0eb2b96500dbb5823a900486983dc4559e5dbf6ba07e4e0c",
+      "exact_optimum": 28,
+      "is_derived": true,
+      "row_count": 60,
+      "columns": [
+        "task_id",
+        "start_time",
+        "finish_time"
+      ]
+    },
+    "Khaled_Phase3_60_worst.csv": {
+      "size": 60,
+      "profile": "worst",
+      "source_original": "Khaled_Activity_Selection_Dataset_111.csv",
+      "sha256": "e4d507a3cfe0b5d290027a9476bdee30ab1b2d463272fe29fd350419b2e19f27",
+      "exact_optimum": 1,
+      "is_derived": true,
+      "row_count": 60,
+      "columns": [
+        "task_id",
+        "start_time",
+        "finish_time"
+      ]
+    },
+    "Khaled_Phase3_111_best.csv": {
+      "size": 111,
+      "profile": "best",
+      "source_original": "Khaled_Activity_Selection_Dataset_111.csv",
+      "sha256": "fa913f3f00e0d9e28b228df29a830640f309e43798a6851bf115c5640c3b6862",
+      "exact_optimum": 111,
+      "is_derived": true,
+      "row_count": 111,
+      "columns": [
+        "task_id",
+        "start_time",
+        "finish_time"
+      ]
+    },
+    "Khaled_Phase3_111_average.csv": {
+      "size": 111,
+      "profile": "average",
+      "source_original": "Khaled_Activity_Selection_Dataset_111.csv",
+      "sha256": "01871c96d28c1657bbb4a75f0859ad5e0d1181a2192814a02be9cc950cc2f9e2",
+      "exact_optimum": 52,
+      "is_derived": true,
+      "row_count": 111,
+      "columns": [
+        "task_id",
+        "start_time",
+        "finish_time"
+      ]
+    },
+    "Khaled_Phase3_111_worst.csv": {
+      "size": 111,
+      "profile": "worst",
+      "source_original": "Khaled_Activity_Selection_Dataset_111.csv",
+      "sha256": "a57b4e2020424c4a02a3401abceecf546b07a37ba37a58d6737be5a253718a7f",
+      "exact_optimum": 1,
+      "is_derived": true,
+      "row_count": 111,
+      "columns": [
+        "task_id",
+        "start_time",
+        "finish_time"
+      ]
+    },
+    "Khaled_Activity_Selection_Dataset_111.csv": {
+      "size": 111,
+      "profile": "original",
+      "is_derived": false,
+      "exact_optimum": 3,
+      "sha256": "25848b86502b11a434eef4c661ff560a3c30e398ecb05f5674b369b753856b63"
+    },
+    "manual_6_jobs.csv": {
+      "size": 6,
+      "profile": "educational_hand_calculated",
+      "is_derived": false,
+      "exact_optimum": 4
+    }
+  },
+  "generation_seed": 42,
+  "explanation": "best/average/worst describe interval overlap structure, not theoretical runtime case",
+  "generation_rule": {
+    "size": "first n rows in original order; preserve durations and IDs",
+    "best": "s_1=0, s_i=f_(i-1), f_i=s_i+d_i",
+    "average": "s_1=0, s_i=s_(i-1)+max(1,ceil(d_(i-1)*U_i)), U~Uniform(0.45,0.75), seed=42 per size",
+    "worst": "s_i=0, f_i=d_i"
+  },
+  "times": "original numeric units, not assumed hours or clock time"
+}

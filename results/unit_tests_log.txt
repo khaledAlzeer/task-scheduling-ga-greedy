@@ -1,0 +1,17 @@
+test_conflict_repair (test_alg.AlgorithmTests.test_conflict_repair) ... ok
+test_duplicate_and_invalid_times (test_alg.AlgorithmTests.test_duplicate_and_invalid_times) ... ok
+test_empty_input (test_alg.AlgorithmTests.test_empty_input) ... ok
+test_exact_optimum_small_manual (test_alg.AlgorithmTests.test_exact_optimum_small_manual) ... ok
+test_ga_feasible_and_history (test_alg.AlgorithmTests.test_ga_feasible_and_history) ... ok
+test_import_header_synonyms (test_alg.AlgorithmTests.test_import_header_synonyms) ... ok
+test_import_headerless_pairs (test_alg.AlgorithmTests.test_import_headerless_pairs) ... ok
+test_import_semicolon_and_invalids (test_alg.AlgorithmTests.test_import_semicolon_and_invalids) ... ok
+test_initial_solution_not_injected_from_reference (test_alg.AlgorithmTests.test_initial_solution_not_injected_from_reference) ... ok
+test_original_ptsp_file (test_alg.AlgorithmTests.test_original_ptsp_file) ... ok
+test_seed_reproducibility (test_alg.AlgorithmTests.test_seed_reproducibility) ... ok
+test_single_task_and_back_to_back (test_alg.AlgorithmTests.test_single_task_and_back_to_back) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.008s
+
+OK
